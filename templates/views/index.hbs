@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>headerlinks}}
+   <title>Home-Weather Application</title>
+</head>
+<body>
+   {{> navbar}}
+        <!-- Page Main Content -->
+      <div class="container-fluid main_header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            
+            <div class="row">
+                <!-- Left Side -->
+                <div class="col-md-6 col-12 main_header_left">
+                    <p>Welcome to Weather App</p>
+                    <h1>Get the Latest <span class="text_clr">Weather</span> Info of your city</h1>
+                    <a href="/weather"><button>Check Now</button></a>
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-md-6 col-12 main_header_right">
+                    <img class="main-img" src="images/weatherImg1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- Bootstrap JavaScript and jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+     {{>footer}}
+</body>
+</html>

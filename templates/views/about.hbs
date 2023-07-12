@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     {{>headerlinks}}
+     <title>About-Weather Application</title>
+</head>
+<body>
+    {{> navbar}}
+        <!-- Page Main Content -->
+      <div class="container-fluid main_header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            
+            <div class="row">
+                <!-- Left Side -->
+                <div class="col-md-6 col-12 main_header_left">
+                    <p>Welcome to Weather App</p>
+                    <h1>Get the Latest <span class="text_clr">Weather</span> Info of your city</h1>
+                    <a href="/weather"><button>Check Now</button></a>
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-md-6 col-12 main_header_right">
+                    <h1>About the App</h1>
+                    <p style="font-size:13px;">Welcome to our innovative weather application, where the power of technology meets the beauty of nature. With the seamless integration of HTML, CSS, and Bootstrap, we have crafted a user-friendly web app that leverages the capabilities of Express.js and APIs to provide real-time weather information for any city of your choice.</p>
+
+                     <p style="font-size:13px;">Immerse yourself in the world of meteorology as you simply enter your desired city and witness the magic unfold. Our application fetches data from reliable APIs, delivering a comprehensive weather report that includes temperature, wind speed, humidity, and more. With a visually appealing interface, navigating through the weather details becomes effortless and enjoyable.</p>
+
+                    <p style="font-size:13px;">Experience the convenience and accuracy of our weather application as it seamlessly connects you to the atmospheric conditions of your chosen city. Stay informed and prepared for whatever Mother Nature has in store, empowering you to make the most of every day, rain or shine.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- Bootstrap JavaScript and jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+   {{>footer}}
+</body>
+</html>
